@@ -22,11 +22,14 @@ a checkbox is a square box to click and check. After checking or unchecking, the
 
 base: python->godot
 ## render principle: 
-using python to create manim project based on Vulkan, in order to use vulkan to render in GPU,
+using python to create manim project based on OpenGL, in order to use OpenGL to render in GPU,
 enhancing render efficiency to achieve live interaction
 
 ## our goal: achieve ppt-like live drag, show/vanish, resize, and edit interactive scene of manim.
 
+
+## contributing
+send a pull request to us and we will check it.
 ## contact us:
 nicholas.t.e838@gmail.com
 
