@@ -1,6 +1,6 @@
 # Manteraction
 
-## Manteraction is a python subpackage of manim to form interactive ppt-like manim in local interactive animation, based on rust program with the support of vulkan.
+## Manteraction is a rust-and-vulkan-based python subpackage of manim to form interactive ppt-like manim in local interactive animation, based on rust program with the support of vulkan.
 
 ### intended input resources
 
