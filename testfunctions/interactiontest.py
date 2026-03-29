@@ -10,5 +10,8 @@ class Interaction(InteractiveScene):
         #the dot which can be dragged by mouse,the initial position of the dot is (1,1)
         dot2 = Dot().shift(RIGHT+UP).become_draggable()
 
-        dot3 = Dot().shift(LEFT+UP).become_draggable()
+        #the dot which can be dragged by mouse, which is limited to a boundary. the boundary number can be a geometric shape or a function
+        dot3 = Dot().become_draggable(x_boundary = [-1,1],y_boundary = [-1,1])
+        #or restriction_function = f(x), where toe dot can only move in space f(x)<0
+        #or restrict_shape = Cricle()
         
